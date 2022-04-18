@@ -36,19 +36,14 @@ export default function Dashboard() {
           <PageRoutes />
         </div>
       </React.Fragment>
-
-      <Selected.Provider value={setSelected}>
-        <div className="Post">
+       {/* <Selected.Provider value={setSelected}>  */}
+        {/* <div className="Post">
           <Posts fetchFlag={fetchFlag} />
-        </div>
-        <div>
+        </div>  */}
+         {/* <div>
           <PostDetails id={selectedState} changeFetchFlag={changeFetchFlag} />
-        </div>
-
-        <div>
-          {fetchFlag ? <NewPost changeFetchFlag={changeFetchFlag} /> : null}
-        </div>
-      </Selected.Provider>
+        </div>  */}
+      {/* </Selected.Provider>  */}
     </div>
   );
 }

@@ -50,6 +50,7 @@ const postList = posts.map((p) => {
     <div>
       <div className="posts">
         {postList}
+        <PostDetails/>
         </div>
     </div>
   );

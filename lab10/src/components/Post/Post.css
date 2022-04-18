@@ -10,7 +10,7 @@
 
 }
 
-.post:hover, .posts:active{
+.post:hover{
   background-color: blue;
   color: white;
 }
