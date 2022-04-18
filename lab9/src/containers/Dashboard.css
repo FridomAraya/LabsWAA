@@ -1,0 +1,18 @@
+
+  .field{
+    
+    margin-top: 60px;
+    margin-left: 10px;;
+    width: 96%;
+    text-align: center;
+    justify-content: space-around;
+    
+  }
+  input{
+    width: 40%;
+  }
+  
+  
+  #root{
+    margin-top: 200px;;
+  }
